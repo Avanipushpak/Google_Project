@@ -17,6 +17,12 @@ public class Facebook_Logn {
 	public void searchAccount() {
 		System.out.println("Search Account");
 	}
+	
+	@Test(priority=4)
+	public void CreateNewAccount() {
+		System.out.println("Created new Account");
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
